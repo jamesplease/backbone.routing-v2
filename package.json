@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/jmeas/backbone.routing-v2",
   "dependencies": {
-    "backbone": "^1.2.0",
     "express": "^4.12.4",
     "jquery": "^2.1.4",
     "underscore": "^1.8.3"
