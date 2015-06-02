@@ -1482,6 +1482,8 @@
       if (callback) callback.apply(this, args);
     },
 
+    // Determine if a registered handler matches the fragment when
+    // History emits a navigate event.
     onNavigate: function(fragment) {
       var matchedRoute = this.matchFragment(fragment);
       if (!matchedRoute) return this;
