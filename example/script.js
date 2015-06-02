@@ -1,3 +1,9 @@
+//
+// The current refactor keeps the most commonly-used
+// API exactly the same. So the following code should
+// look very familiar to you...
+//
+
 var MyRouter = Backbone.Router.extend({
   routes: {
     'sandwiches': 'sandwiches'
