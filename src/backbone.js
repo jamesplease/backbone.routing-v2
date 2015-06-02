@@ -1457,23 +1457,18 @@
     //     });
     //
     route: function(route, name, callback) {
-      var handler = this.getHandler(route, name, callback);
-      Router.handlers.push(handler);
-    },
-
-    // Return a handler object from a route, name, and callback
-    getHandler: function(route, name, callback) {
       if (!_.isRegExp(route)) route = this._routeToRegExp(route);
       if (_.isFunction(name)) {
         callback = name;
         name = '';
       }
       if (!callback) callback = this[name];
-      return {
+      var handler = {
         route: route,
         callback: callback,
         name: name
       };
+      Router.handlers.push(handler);
     },
 
     // Execute a route handler with the provided parameters.  This is an
