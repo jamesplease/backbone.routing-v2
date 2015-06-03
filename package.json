@@ -1,0 +1,32 @@
+{
+  "name": "backbone.routing-v2",
+  "version": "0.0.1",
+  "description": "A routing and history prototype for Backbone v2.",
+  "main": "build/backbone.routing",
+  "scripts": {
+    "test": "gulp",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmeas/backbone.routing-v2.git"
+  },
+  "keywords": [
+    "backbone",
+    "routing",
+    "history",
+    "prototype",
+    "v2"
+  ],
+  "author": "Jmeas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmeas/backbone.routing-v2/issues"
+  },
+  "homepage": "https://github.com/jmeas/backbone.routing-v2",
+  "dependencies": {
+    "express": "^4.12.4",
+    "jquery": "^2.1.4",
+    "underscore": "^1.8.3"
+  }
+}
