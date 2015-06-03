@@ -1757,7 +1757,8 @@
     // you wish to modify the current URL without adding an entry to the history.
     navigate: function(fragment, options) {
       if (!History.started) return false;
-      if (!options || options === true) options = {trigger: !!options};
+      if (options === void 0) options = {silent: true};
+      if (options === false) options = {silent: false};
 
       // Normalize the fragment.
       fragment = this.getFragment(fragment || '');

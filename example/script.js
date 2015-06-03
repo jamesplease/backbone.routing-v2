@@ -24,5 +24,5 @@ Backbone.history.start({
   pushState: true
 });
 
-myRouter.navigate('spaghetti/2');
+myRouter.navigate('spaghetti/2', false);
 
