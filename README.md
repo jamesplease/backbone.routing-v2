@@ -7,4 +7,4 @@ Clone this repository, then run `npm install`.
 
 ### Running the example
 
-Run `npm start`. Navigate to `http://localhost:8821` in the browser.
+Run `npm start`. Navigate to `http://localhost:8821/sandwiches` in the browser.
